@@ -1,0 +1,88 @@
+{
+  "best_metric": 0.21333815157413483,
+  "best_model_checkpoint": "roberta-base-lora-text-classification\\checkpoint-4210",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 4210,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.1187648456057007,
+      "grad_norm": 1.4590590000152588,
+      "learning_rate": 0.0008812351543942994,
+      "loss": 0.3836,
+      "step": 500
+    },
+    {
+      "epoch": 0.2375296912114014,
+      "grad_norm": 5.985991954803467,
+      "learning_rate": 0.0007624703087885985,
+      "loss": 0.3016,
+      "step": 1000
+    },
+    {
+      "epoch": 0.35629453681710216,
+      "grad_norm": 5.1126837730407715,
+      "learning_rate": 0.0006437054631828979,
+      "loss": 0.2807,
+      "step": 1500
+    },
+    {
+      "epoch": 0.4750593824228028,
+      "grad_norm": 5.474648952484131,
+      "learning_rate": 0.0005249406175771972,
+      "loss": 0.272,
+      "step": 2000
+    },
+    {
+      "epoch": 0.5938242280285035,
+      "grad_norm": 0.9500410556793213,
+      "learning_rate": 0.0004061757719714965,
+      "loss": 0.2681,
+      "step": 2500
+    },
+    {
+      "epoch": 0.7125890736342043,
+      "grad_norm": 6.168094635009766,
+      "learning_rate": 0.00028741092636579575,
+      "loss": 0.2574,
+      "step": 3000
+    },
+    {
+      "epoch": 0.831353919239905,
+      "grad_norm": 1.7233426570892334,
+      "learning_rate": 0.00016864608076009503,
+      "loss": 0.2475,
+      "step": 3500
+    },
+    {
+      "epoch": 0.9501187648456056,
+      "grad_norm": 5.993618011474609,
+      "learning_rate": 4.98812351543943e-05,
+      "loss": 0.2271,
+      "step": 4000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": {
+        "accuracy": 0.9208715596330275
+      },
+      "eval_loss": 0.21333815157413483,
+      "eval_runtime": 61.3905,
+      "eval_samples_per_second": 14.204,
+      "eval_steps_per_second": 0.896,
+      "step": 4210
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 4210,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 1246924152079512.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
